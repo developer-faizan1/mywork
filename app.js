@@ -28,14 +28,29 @@ dropdownMenus.forEach(menu => {
 
 
 // swiper js
-const swiper = new Swiper('.swiper', {
+// var swiper = new Swiper('.swiper', {
+//     loop: true,
+//     autoplay: {
+//       delay: 3000,
+//       disableOnInteraction: false,
+//     },
+//     pagination: {
+//       el: '.swiper-pagination',
+//       clickable: true,
+//     },
+//   });
+
+  var swiper2 = new Swiper(".swiper2", {
+    slidesPerView: "auto",
+    spaceBetween: 30,
     loop: true,
     autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-    },
+        delay: 5000,
+        disableOnInteraction: false,
+      },
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
       clickable: true,
     },
   });
+ 
