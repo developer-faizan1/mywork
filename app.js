@@ -28,17 +28,17 @@ dropdownMenus.forEach(menu => {
 
 
 // swiper js
-// var swiper = new Swiper('.swiper', {
-//     loop: true,
-//     autoplay: {
-//       delay: 3000,
-//       disableOnInteraction: false,
-//     },
-//     pagination: {
-//       el: '.swiper-pagination',
-//       clickable: true,
-//     },
-//   });
+var swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
 
   var swiper2 = new Swiper(".swiper2", {
     slidesPerView: "auto",
